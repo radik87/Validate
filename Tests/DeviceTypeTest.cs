@@ -21,9 +21,9 @@ namespace Tests
         public void TestIOSDevice()
         {
             //Arrange
-            Guid andriodId = new Guid("B5A648BA-262F-47BF-A0F5-4FDF68AC0C12");
+            Guid IOSId = new Guid("B5A648BA-262F-47BF-A0F5-4FDF68AC0C12");
             //Actual
-            bool result = new Regex(ValidatePaterns.Guid).IsMatch(andriodId.ToString());
+            bool result = new Regex(ValidatePaterns.Guid).IsMatch(IOSId.ToString());
             //Assert
             Assert.True(result);
         }
@@ -32,9 +32,9 @@ namespace Tests
         public void TestIOSDeviceWith1UpperCaseLetter()
         {
             //Arrange
-            Guid andriodId = new Guid("76Cb8c23-13a0-41e6-ad16-a2056ece43ba");
+            Guid IOSId = new Guid("76Cb8c23-13a0-41e6-ad16-a2056ece43ba");
             //Actual
-            bool result = new Regex(ValidatePaterns.Guid).IsMatch(andriodId.ToString());
+            bool result = new Regex(ValidatePaterns.Guid).IsMatch(IOSId.ToString());
             //Assert
             Assert.True(result);
         }
