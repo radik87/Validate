@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev2\\Validation\\Tests\\Tests.csproj": {}
+    "C:\\dev2\\Validate\\Tests\\Tests.csproj": {}
   },
   "projects": {
-    "C:\\dev2\\Validation\\Tests\\Tests.csproj": {
+    "C:\\dev2\\Validate\\Tests\\Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev2\\Validation\\Tests\\Tests.csproj",
+        "projectUniqueName": "C:\\dev2\\Validate\\Tests\\Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "C:\\dev2\\Validation\\Tests\\Tests.csproj",
+        "projectPath": "C:\\dev2\\Validate\\Tests\\Tests.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\dev2\\Validation\\Tests\\obj\\",
+        "outputPath": "C:\\dev2\\Validate\\Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\dev2\\Validation\\Validation\\Validation.csproj": {
-                "projectPath": "C:\\dev2\\Validation\\Validation\\Validation.csproj"
+              "C:\\dev2\\Validate\\Validation\\Validation.csproj": {
+                "projectPath": "C:\\dev2\\Validate\\Validation\\Validation.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\dev2\\Validation\\Validation\\Validation.csproj": {
+    "C:\\dev2\\Validate\\Validation\\Validation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev2\\Validation\\Validation\\Validation.csproj",
+        "projectUniqueName": "C:\\dev2\\Validate\\Validation\\Validation.csproj",
         "projectName": "Validation",
-        "projectPath": "C:\\dev2\\Validation\\Validation\\Validation.csproj",
+        "projectPath": "C:\\dev2\\Validate\\Validation\\Validation.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\dev2\\Validation\\Validation\\obj\\",
+        "outputPath": "C:\\dev2\\Validate\\Validation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

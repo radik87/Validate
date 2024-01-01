@@ -2891,11 +2891,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev2\\Validation\\Validation\\Validation.csproj",
+      "projectUniqueName": "C:\\dev2\\Validate\\Validation\\Validation.csproj",
       "projectName": "Validation",
-      "projectPath": "C:\\dev2\\Validation\\Validation\\Validation.csproj",
+      "projectPath": "C:\\dev2\\Validate\\Validation\\Validation.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\dev2\\Validation\\Validation\\obj\\",
+      "outputPath": "C:\\dev2\\Validate\\Validation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

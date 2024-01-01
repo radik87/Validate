@@ -44,15 +44,23 @@ namespace Validation.Services
 
         public bool ValidateBirthday(string dataForValidate)
         {
-            DateTime enteredDate = DateTime.Parse(dataForValidate);
-
-            using (var context = new DijaDbContext())
+            try
             {
-                DateTime? birthday = context.Users.Where(x => x.BirthDate == enteredDate).Select(x => x.BirthDate).FirstOrDefault();
-                if (birthday == enteredDate)
+                DateTime enteredDate = DateTime.Parse(dataForValidate);
+
+                using (var context = new DijaDbContext())
                 {
-                    return true;
+                    DateTime? birthday = context.Users.Where(x => x.BirthDate == enteredDate).Select(x => x.BirthDate).FirstOrDefault();
+                    if (birthday == enteredDate)
+                    {
+                        return true;
+                    }
                 }
+            }
+            catch (Exception)
+            {
+
+                Console.WriteLine("Wrong Format Data");
             }
 
             return false;
