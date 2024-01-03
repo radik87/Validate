@@ -5,7 +5,7 @@ using Validation.Services;
 
 class Program
 {
-    static void Main(string[] args)
+    static async void Main(string[] args)
     {
         //use new MockDataService().FillDb(); 1 time and after comment this line because guids are hardcoded.
         new MockDataService().FillDb();
@@ -25,17 +25,17 @@ class Program
 
                 if (dataForValidate[0].ToLower().Equals(SearchCommand.Passport))
                 {
-                    result = validateUserService.ValidatePassport(dataForValidate[1]);
+                    result = await validateUserService.ValidatePassport(dataForValidate[1]);
                 }
 
                 if (dataForValidate[0].ToLower().Equals(SearchCommand.Rnokpp))
                 {
-                    result = validateUserService.ValidateRnokpp(dataForValidate[1]);
+                    result = await validateUserService.ValidateRnokpp(dataForValidate[1]);
                 }
 
                 if (dataForValidate[0].ToLower().Equals(SearchCommand.BirthDay))
                 {
-                    result = validateUserService.ValidateBirthday(dataForValidate[1]);
+                    result = await validateUserService.ValidateBirthday(dataForValidate[1]);
                 }
 
                 if (new Regex(ValidatePaterns.Guid).IsMatch(input))

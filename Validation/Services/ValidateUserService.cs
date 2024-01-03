@@ -1,4 +1,6 @@
-﻿using System.Text.RegularExpressions;
+﻿using Microsoft.EntityFrameworkCore;
+
+using System.Text.RegularExpressions;
 using Validation.Constants;
 using Validation.Models;
 
@@ -6,7 +8,7 @@ namespace Validation.Services
 {
     public class ValidateUserService
     {
-        public bool ValidatePassport(string dataForValidate)
+        public async Task<bool> ValidatePassport(string dataForValidate)
         {
             var regex = new Regex(ValidatePaterns.Passport);
 
@@ -14,7 +16,8 @@ namespace Validation.Services
             {
                 using (var context = new DijaDbContext())
                 {
-                    string? passport = context.Users.Where(x => x.Passport == dataForValidate).Select(x => x.Passport).FirstOrDefault();
+                    string? passport = await context.Users.Where(x => x.Passport == dataForValidate).Select(x => x.Passport)
+                        .FirstOrDefaultAsync();
                     if (passport != null)
                     {
                         return true;
@@ -24,7 +27,7 @@ namespace Validation.Services
             return false;
         }
 
-        public bool ValidateRnokpp(string dataForValidate)
+        public async Task<bool> ValidateRnokpp(string dataForValidate)
         {
             var regex = new Regex(ValidatePaterns.Rnokpp);
 
@@ -32,7 +35,8 @@ namespace Validation.Services
             {
                 using (var context = new DijaDbContext())
                 {
-                    string? rnokpp = context.Users.Where(x => x.Rnokpp == dataForValidate).Select(x => x.Rnokpp).FirstOrDefault();
+                    string? rnokpp = await context.Users.Where(x => x.Rnokpp == dataForValidate).Select(x => x.Rnokpp)
+                        .FirstOrDefaultAsync();
                     if (rnokpp != null)
                     {
                         return true;
@@ -42,7 +46,7 @@ namespace Validation.Services
             return false;
         }
 
-        public bool ValidateBirthday(string dataForValidate)
+        public async Task<bool> ValidateBirthday(string dataForValidate)
         {
             try
             {
@@ -50,7 +54,8 @@ namespace Validation.Services
 
                 using (var context = new DijaDbContext())
                 {
-                    DateTime? birthday = context.Users.Where(x => x.BirthDate == enteredDate).Select(x => x.BirthDate).FirstOrDefault();
+                    DateTime? birthday = await context.Users.Where(x => x.BirthDate == enteredDate).Select(x => x.BirthDate)
+                        .FirstOrDefaultAsync();
                     if (birthday == enteredDate)
                     {
                         return true;
