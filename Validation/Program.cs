@@ -5,10 +5,10 @@ using Validation.Services;
 
 class Program
 {
-    static async void Main(string[] args)
+    static async Task Main(string[] args)
     {
         //use new MockDataService().FillDb(); 1 time and after comment this line because guids are hardcoded.
-        new MockDataService().FillDb();
+        //new MockDataService().FillDb();
 
         //put breakpoint here and check mock data in database.
         while (true)
