@@ -1,0 +1,252 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\gitHub\\Validate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50FFD21E-6AF8-47F7-A910-982CE1995957}|Validation\\Validation.csproj|d:\\github\\validate\\validation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50FFD21E-6AF8-47F7-A910-982CE1995957}|Validation\\Validation.csproj|solutionrelative:validation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50FFD21E-6AF8-47F7-A910-982CE1995957}|Validation\\Validation.csproj|d:\\github\\validate\\validation\\constants\\validatepaterns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50FFD21E-6AF8-47F7-A910-982CE1995957}|Validation\\Validation.csproj|solutionrelative:validation\\constants\\validatepaterns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50FFD21E-6AF8-47F7-A910-982CE1995957}|Validation\\Validation.csproj|d:\\github\\validate\\validation\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50FFD21E-6AF8-47F7-A910-982CE1995957}|Validation\\Validation.csproj|solutionrelative:validation\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50FFD21E-6AF8-47F7-A910-982CE1995957}|Validation\\Validation.csproj|d:\\github\\validate\\validation\\services\\validateuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50FFD21E-6AF8-47F7-A910-982CE1995957}|Validation\\Validation.csproj|solutionrelative:validation\\services\\validateuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50FFD21E-6AF8-47F7-A910-982CE1995957}|Validation\\Validation.csproj|d:\\github\\validate\\validation\\services\\mockdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50FFD21E-6AF8-47F7-A910-982CE1995957}|Validation\\Validation.csproj|solutionrelative:validation\\services\\mockdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50FFD21E-6AF8-47F7-A910-982CE1995957}|Validation\\Validation.csproj|d:\\github\\validate\\validation\\services\\sensivitycasechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50FFD21E-6AF8-47F7-A910-982CE1995957}|Validation\\Validation.csproj|solutionrelative:validation\\services\\sensivitycasechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B2C9E8-40A7-4960-90DE-08CB16F5226B}|Tests\\Tests.csproj|d:\\github\\validate\\tests\\devicetypetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B2C9E8-40A7-4960-90DE-08CB16F5226B}|Tests\\Tests.csproj|solutionrelative:tests\\devicetypetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B2C9E8-40A7-4960-90DE-08CB16F5226B}|Tests\\Tests.csproj|d:\\github\\validate\\tests\\passporttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B2C9E8-40A7-4960-90DE-08CB16F5226B}|Tests\\Tests.csproj|solutionrelative:tests\\passporttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B2C9E8-40A7-4960-90DE-08CB16F5226B}|Tests\\Tests.csproj|d:\\github\\validate\\tests\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B2C9E8-40A7-4960-90DE-08CB16F5226B}|Tests\\Tests.csproj|solutionrelative:tests\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50FFD21E-6AF8-47F7-A910-982CE1995957}|Validation\\Validation.csproj|d:\\github\\validate\\validation\\constants\\searchcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50FFD21E-6AF8-47F7-A910-982CE1995957}|Validation\\Validation.csproj|solutionrelative:validation\\constants\\searchcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50FFD21E-6AF8-47F7-A910-982CE1995957}|Validation\\Validation.csproj|d:\\github\\validate\\validation\\migrations\\20240101134751_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50FFD21E-6AF8-47F7-A910-982CE1995957}|Validation\\Validation.csproj|solutionrelative:validation\\migrations\\20240101134751_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50FFD21E-6AF8-47F7-A910-982CE1995957}|Validation\\Validation.csproj|d:\\github\\validate\\validation\\migrations\\dijadbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50FFD21E-6AF8-47F7-A910-982CE1995957}|Validation\\Validation.csproj|solutionrelative:validation\\migrations\\dijadbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50FFD21E-6AF8-47F7-A910-982CE1995957}|Validation\\Validation.csproj|d:\\github\\validate\\validation\\models\\dijadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50FFD21E-6AF8-47F7-A910-982CE1995957}|Validation\\Validation.csproj|solutionrelative:validation\\models\\dijadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C73536C5-F4A5-4709-B838-5E97CDB0FAC5}|Solution Items{C73536C5-F4A5-4709-B838-5E97CDB0FAC5}|D:\\gitHub\\Validate\\ReadMe.MD||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C73536C5-F4A5-4709-B838-5E97CDB0FAC5}|Solution Items{C73536C5-F4A5-4709-B838-5E97CDB0FAC5}|solutionrelative:ReadMe.MD||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DijaDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\gitHub\\Validate\\Validation\\Migrations\\DijaDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Validation\\Migrations\\DijaDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\gitHub\\Validate\\Validation\\Migrations\\DijaDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Validation\\Migrations\\DijaDbContextModelSnapshot.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T15:53:05.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MockDataService.cs",
+              "DocumentMoniker": "D:\\gitHub\\Validate\\Validation\\Services\\MockDataService.cs",
+              "RelativeDocumentMoniker": "Validation\\Services\\MockDataService.cs",
+              "ToolTip": "D:\\gitHub\\Validate\\Validation\\Services\\MockDataService.cs",
+              "RelativeToolTip": "Validation\\Services\\MockDataService.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAQwDIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T15:53:05.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SensivityCaseChecker.cs",
+              "DocumentMoniker": "D:\\gitHub\\Validate\\Validation\\Services\\SensivityCaseChecker.cs",
+              "RelativeDocumentMoniker": "Validation\\Services\\SensivityCaseChecker.cs",
+              "ToolTip": "D:\\gitHub\\Validate\\Validation\\Services\\SensivityCaseChecker.cs",
+              "RelativeToolTip": "Validation\\Services\\SensivityCaseChecker.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T15:53:05.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ValidateUserService.cs",
+              "DocumentMoniker": "D:\\gitHub\\Validate\\Validation\\Services\\ValidateUserService.cs",
+              "RelativeDocumentMoniker": "Validation\\Services\\ValidateUserService.cs",
+              "ToolTip": "D:\\gitHub\\Validate\\Validation\\Services\\ValidateUserService.cs",
+              "RelativeToolTip": "Validation\\Services\\ValidateUserService.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAApwDAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T15:53:05.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Usings.cs",
+              "DocumentMoniker": "D:\\gitHub\\Validate\\Tests\\Usings.cs",
+              "RelativeDocumentMoniker": "Tests\\Usings.cs",
+              "ToolTip": "D:\\gitHub\\Validate\\Tests\\Usings.cs",
+              "RelativeToolTip": "Tests\\Usings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T15:53:05.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\gitHub\\Validate\\Validation\\Program.cs",
+              "RelativeDocumentMoniker": "Validation\\Program.cs",
+              "ToolTip": "D:\\gitHub\\Validate\\Validation\\Program.cs",
+              "RelativeToolTip": "Validation\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T15:53:05.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValidatePaterns.cs",
+              "DocumentMoniker": "D:\\gitHub\\Validate\\Validation\\Constants\\ValidatePaterns.cs",
+              "RelativeDocumentMoniker": "Validation\\Constants\\ValidatePaterns.cs",
+              "ToolTip": "D:\\gitHub\\Validate\\Validation\\Constants\\ValidatePaterns.cs",
+              "RelativeToolTip": "Validation\\Constants\\ValidatePaterns.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T15:53:05.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeviceTypeTest.cs",
+              "DocumentMoniker": "D:\\gitHub\\Validate\\Tests\\DeviceTypeTest.cs",
+              "RelativeDocumentMoniker": "Tests\\DeviceTypeTest.cs",
+              "ToolTip": "D:\\gitHub\\Validate\\Tests\\DeviceTypeTest.cs",
+              "RelativeToolTip": "Tests\\DeviceTypeTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T15:53:05.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\gitHub\\Validate\\Validation\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Validation\\Models\\User.cs",
+              "ToolTip": "D:\\gitHub\\Validate\\Validation\\Models\\User.cs",
+              "RelativeToolTip": "Validation\\Models\\User.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T15:53:05.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PassportTests.cs",
+              "DocumentMoniker": "D:\\gitHub\\Validate\\Tests\\PassportTests.cs",
+              "RelativeDocumentMoniker": "Tests\\PassportTests.cs",
+              "ToolTip": "D:\\gitHub\\Validate\\Tests\\PassportTests.cs",
+              "RelativeToolTip": "Tests\\PassportTests.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBwAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T15:53:05.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SearchCommand.cs",
+              "DocumentMoniker": "D:\\gitHub\\Validate\\Validation\\Constants\\SearchCommand.cs",
+              "RelativeDocumentMoniker": "Validation\\Constants\\SearchCommand.cs",
+              "ToolTip": "D:\\gitHub\\Validate\\Validation\\Constants\\SearchCommand.cs",
+              "RelativeToolTip": "Validation\\Constants\\SearchCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T15:53:05.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240101134751_Init.cs",
+              "DocumentMoniker": "D:\\gitHub\\Validate\\Validation\\Migrations\\20240101134751_Init.cs",
+              "RelativeDocumentMoniker": "Validation\\Migrations\\20240101134751_Init.cs",
+              "ToolTip": "D:\\gitHub\\Validate\\Validation\\Migrations\\20240101134751_Init.cs",
+              "RelativeToolTip": "Validation\\Migrations\\20240101134751_Init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T15:53:05.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DijaDbContext.cs",
+              "DocumentMoniker": "D:\\gitHub\\Validate\\Validation\\Models\\DijaDbContext.cs",
+              "RelativeDocumentMoniker": "Validation\\Models\\DijaDbContext.cs",
+              "ToolTip": "D:\\gitHub\\Validate\\Validation\\Models\\DijaDbContext.cs",
+              "RelativeToolTip": "Validation\\Models\\DijaDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T15:53:05.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReadMe.MD",
+              "DocumentMoniker": "D:\\gitHub\\Validate\\ReadMe.Md",
+              "RelativeDocumentMoniker": "ReadMe.Md",
+              "ToolTip": "D:\\gitHub\\Validate\\ReadMe.Md",
+              "RelativeToolTip": "ReadMe.Md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-07-30T15:53:05.432Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
